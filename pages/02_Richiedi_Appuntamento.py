@@ -21,8 +21,10 @@ with st.form("appointment_form", clear_on_submit=True):
         "Tipo di consulenza *",
         [
             "Prima visita",
-            "Visita di controllo",
             "Piano alimentare personalizzato",
+            "Educazione alimentare",
+            "Esame bioimpedenziometrico",
+            "Plicometria e circonferenze corporee",
             "Consulenza online",
             "Altro",
         ],
@@ -49,16 +51,7 @@ with st.form("appointment_form", clear_on_submit=True):
             )
 
 st.markdown("---")
-st.markdown(
-    """
-    ### 💰 Tariffe indicative
-    | Servizio | Prezzo |
-    |---|---|
-    | Prima visita | € 80 |
-    | Visita di controllo | € 50 |
-    | Piano alimentare | € 120 |
-    | Consulenza online | € 60 |
-    """
+st.info(
+    "💬 Per informazioni sulle tariffe, contattami direttamente "
+    "via email o telefono."
 )
-
-st.caption("I prezzi sono indicativi. Contattami per un preventivo personalizzato.")

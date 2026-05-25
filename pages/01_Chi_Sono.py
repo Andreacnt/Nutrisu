@@ -11,17 +11,19 @@ with col1:
 with col2:
     st.markdown(
         """
-        ### Dott.ssa [Nome]
-        **Biologa Nutrizionista** | Iscritta all'Ordine dei Biologi n. [X]
+        ### Dott.ssa Graziana Ancona
+        **Biologa Nutrizionista** | Iscritta all'Ordine dei Biologi n. PuB_A5285
+        **Ordine dei Biologi della Puglia e della Basilicata**
 
-        Laureata in Scienze della Nutrizione presso l'Università di [Nome],
-        con master in [Specializzazione].
+        Laureata in Scienze della Nutrizione con specializzazione in
+        **Nutrizione Collettiva e Sicurezza Alimentare**.
 
         ### 📋 Cosa offro:
         - Piani alimentari personalizzati
         - Educazione alimentare
+        - Esame bioimpedenziometrico
+        - Plicometria e circonferenze corporee
         - Supporto nel raggiungimento dei tuoi obiettivi
-        - Percorsi di dimagrimento e benessere
         """
     )
 
@@ -32,23 +34,21 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown(
         """
-        ### Studio [Nome]
-        📪 Via Roma, 123 - 00100 Roma
-        📞 +39 123 456 7890
-        ✉️ email@nutrizionista.it
+        ### Studio
+        📪 Viale la Grola, 5 - Parma
+        📞 320 319 0704
+        ✉️ anconagraziana@gmail.com
 
         **Orari:**
-        - Lun-Ven: 9:00 - 13:00 / 15:00 - 19:00
-        - Sab: 9:00 - 13:00 (solo su appuntamento)
+        - Sabato mattina (solo su appuntamento)
         """
     )
 with col2:
     st.markdown(
         """
         ### Social
-        - 📸 Instagram: @nutrizionista
-        - 📘 Facebook: /nutrizionista
-        - 🔗 LinkedIn: /in/nutrizionista
+        - 📸 Instagram: @nutri_su_insta
+        - 🔗 LinkedIn: /in/anconagraziana
         """
     )
 

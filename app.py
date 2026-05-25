@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Dott.ssa Nutrizionista",
+    page_title="Dott.ssa Graziana Ancona - Nutrizionista",
     page_icon="🥗",
     layout="centered",
     initial_sidebar_state="expanded",
@@ -9,7 +9,7 @@ st.set_page_config(
 
 with st.sidebar:
     st.image("https://img.icons8.com/color/96/healthy-food--v1.png", width=80)
-    st.markdown("### Dott.ssa Nutrizionista")
+    st.markdown("### Dott.ssa Graziana Ancona")
     st.markdown("---")
     st.page_link("app.py", label="Home", icon="🏠")
     st.page_link("pages/01_Chi_Sono.py", label="Chi Sono", icon="👩‍⚕️")
@@ -17,7 +17,7 @@ with st.sidebar:
     st.page_link("pages/03_Mini_Guide.py", label="Mini Guide", icon="📖")
 
 st.title("🥗 Benvenuto!")
-st.subheader("Dott.ssa [Nome] - Biologa Nutrizionista")
+st.subheader("Dott.ssa Graziana Ancona - Biologa Nutrizionista")
 
 col1, col2 = st.columns([1, 2])
 with col1:
@@ -25,7 +25,7 @@ with col1:
 with col2:
     st.markdown(
         """
-        Ciao! Sono la **Dott.ssa [Nome]**, biologa nutrizionista.
+        Ciao! Sono la **Dott.ssa Graziana Ancona**, biologa nutrizionista.
 
         Ti aiuto a raggiungere i tuoi obiettivi di salute e benessere
         attraverso un'alimentazione personalizzata e sostenibile.
@@ -41,7 +41,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center; color: #666;'>
-        © 2026 Dott.ssa [Nome] - Biologa Nutrizionista
+        © 2026 Dott.ssa Graziana Ancona - Biologa Nutrizionista
     </div>
     """,
     unsafe_allow_html=True,
